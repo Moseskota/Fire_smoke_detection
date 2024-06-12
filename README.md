@@ -15,6 +15,7 @@ The goal of this project is to create an effective fire detection system using a
 
 **Dataset**:
 The dataset used in this project consists of images categorized into fire, smoke, and non-fire classes. The dataset is stored in a ZIP file and extracted for training and testing.
+https://www.kaggle.com/datasets/mosescalvin/forest-fire-smoke-and-non-fire-dataset 
 
 **Model Training**:
 The training process involves loading the dataset, preprocessing the images, and training the MobileNetV2 model. The training and validation splits are handled within the script.
