@@ -18,28 +18,12 @@ The goal of this project is to create an effective fire detection system using a
 Dataset
 The dataset used in this project consists of images categorized into fire, smoke, and non-fire classes. The dataset is stored in a ZIP file and extracted for training and testing.
 
-Installation
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/yourusername/fire_detection_mobilenet.git
-cd fire_detection_mobilenet
-Install the required packages:
-
-bash
-Copy code
-pip install -r requirements.txt
-Download the dataset and place it in the appropriate directory as specified in the script.
-
-Usage
-To use the script, ensure that you have the dataset in the correct path and then run the script using Python:
-
-bash
-Copy code
-python fire_detection_mobilenet.py
 Model Training
 The training process involves loading the dataset, preprocessing the images, and training the MobileNetV2 model. The training and validation splits are handled within the script.
 
 Evaluation
 The trained model is evaluated using a separate test dataset. The evaluation metrics include loss and accuracy, and a confusion matrix is plotted to visualize the performance of the model.
+
+
+![Confusion_matrix](https://github.com/Moseskota/Fire_smoke_detection/assets/76688024/94d3efb9-85b8-4b21-88d2-d42eb475e1e1)
+
